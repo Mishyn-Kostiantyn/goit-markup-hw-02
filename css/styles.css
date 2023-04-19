@@ -1,8 +1,20 @@
 /* Index.html */
+:root {
+  --primary-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --main-text-color: #434455;
+}
 body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.02em;
+  color: #434455;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
 }
 /* Logo */
 .logo {
@@ -12,45 +24,40 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
+  color: var(--accent-color);
 }
-.logo-text1 {
-  color: #4d5ae5;
-}
-.logo-text2 {
-  color: #2e2f42;
+.logo-text {
+  color: var(--primary-text-color);
 }
 /* Menunav */
-.menunav {
+.option {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  list-style: none;
+  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
 }
-.menunav .option {
-  color: #2e2f42;
-  text-decoration: none;
+.option:hover {
+  color: #404bbf;
 }
-.menunav .option:active {
+.option:focus {
   color: #404bbf;
 }
 /* Menunav-Adress */
-.contacts {
+.address {
+  font-style: normal;
+}
+.contacts-option {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  list-style: none;
+  color: var(--main-text-color);
 }
-.contacts .e-mail {
-  color: #434455;
-  text-decoration: none;
-}
-.contacts .e-mail:active {
+.contacts-option:hover {
   color: #404bbf;
 }
-.contacts .phone-number {
-  color: #434455;
-  text-decoration: none;
+.contacts-option:focus {
+  color: #404bbf;
 }
 /* Scrolls */
 /* Hero */
