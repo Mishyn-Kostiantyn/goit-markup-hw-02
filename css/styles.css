@@ -76,7 +76,7 @@ body {
 }
 .hero-button {
   background-color: #4d5ae5;
-  font-family: Roboto, sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -90,6 +90,9 @@ body {
 .hero-button:focus {
   background-color: #404bbf;
 }
+.hero-button:hover {
+  background-color: #404bbf;
+}
 
 /* Sections */
 .section2-title {
@@ -98,7 +101,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 .section3-title {
   font-weight: 700;
@@ -107,7 +110,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 .section4-title {
   font-weight: 700;
@@ -116,31 +119,31 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: #2e2f42;
+  color:var(--primary-text-color);
 }
 .section2-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 .section4-header {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 20px;var
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 .section3-description {
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--main-text-color);
 }
 .section4-description {
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--main-text-color);
 }
 .section-4 {
   background-color: #f4f4fd;
@@ -159,7 +162,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
   color: var(--accent-color);
 }
 .logo-text3 {
@@ -172,8 +174,6 @@ body {
 }
 /* Portfolio */
 /* Filter */
-.filter {
-}
 .filter-button {
   font-weight: 500;
   font-size: 16px;
@@ -197,19 +197,16 @@ body {
   color: #ffffff;
 }
 /* Our projects */
-.our-projects {
-  list-style: none;
-}
 .our-projects-name {
-  color: var(--primary-text-color);
-  font-weight: 500;
+    font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 .our-projects-description {
   font-size: 16px;
   line-height: 1.5;
-  color: var(--main-text-color);
   letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
