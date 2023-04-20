@@ -1,4 +1,3 @@
-/* Index.html */
 :root {
   --primary-text-color: #2e2f42;
   --accent-color: #4d5ae5;
@@ -95,7 +94,7 @@ body {
 }
 
 /* Sections */
-.section2-title {
+.sectiontwo-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -119,20 +118,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.section3-description {
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--main-text-color);
-}
 .section-description {
   font-size: 16px;
   line-height: 1.5;
   color: var(--main-text-color);
 }
-.section4 {
+.section-four {
   background-color: #f4f4fd;
 }
-.section4-list-item {
+.section-four-list-item {
   background-color: #ffffff;
 }
 /* Footer */
@@ -148,7 +142,7 @@ body {
   text-transform: uppercase;
   color: var(--accent-color);
 }
-.logo-text3 {
+.logofooter-text {
   color: #f4f4fd;
 }
 .footer-description {
